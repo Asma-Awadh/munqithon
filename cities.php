@@ -48,7 +48,7 @@ if (isset($_POST['add_city'])) {
 if (isset($_POST['edit_city'])) {
     $city_id = $_POST['city_id'];
     $city_name = trim($_POST['city_name']);
-    
+      //  ادخال اسم المدينةا
     if (empty($city_name)) {
         $error_message = "يرجى إدخال اسم المدينة";
     } else {
