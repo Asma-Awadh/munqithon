@@ -50,6 +50,7 @@
             }
         }
         else {
+	/*TES1: check if the input is empty*/
             if($(input).val().trim() == ''){
                 return false;
             }
