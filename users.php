@@ -2,6 +2,7 @@
 include("conn.php");
 include("header.php");
 
+//TES -8 ADD COMMENTS
 // Helper function to mask email addresses
 function maskEmail($email) {
     if (empty($email)) return 'غير متوفر';
