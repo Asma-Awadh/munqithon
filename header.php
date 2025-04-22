@@ -3,6 +3,8 @@ if (isset($_POST['logout_btn'])) {
   include('logout.php');
 }
 
+// make updates to design
+
 // Verificar si la sesión está iniciada
 if(isset($_SESSION['role'])) {
   if($_SESSION['role'] == 1) {
