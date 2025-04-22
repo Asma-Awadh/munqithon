@@ -25,6 +25,7 @@ if (isset($_POST['login_btn'])) {
         
         header("location:home.php");
         exit();
+   // check if input correct
     } else {
         $error_message = "بيانات الدخول غير صحيحة، يرجى المحاولة مرة أخرى";
     }
