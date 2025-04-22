@@ -86,7 +86,7 @@ if (isset($_POST['book_appointment'])) {
             mysqli_stmt_bind_param($stmt, "iis", $user_id, $clinic_schedule_id, $notes);
             
             if (mysqli_stmt_execute($stmt)) {
-                // تحديث حالة الموعد إلى محجوز
+                // تغيير الموعد الى حجز
                 $update_query = "UPDATE doctor_schedule SET is_booked = 1 WHERE id = ?";
                 $stmt = mysqli_prepare($db, $update_query);
                 mysqli_stmt_bind_param($stmt, "i", $doctor_schedule_id);
