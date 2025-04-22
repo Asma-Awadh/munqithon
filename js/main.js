@@ -69,7 +69,7 @@
         $(thisAlert).removeClass('alert-validate');
     }
     
-    /*==================================================================
+    /*====================================show or hidden pass==============================
     [ Show pass ]*/
     var showPass = 0;
     $('.btn-show-pass').on('click', function(){
