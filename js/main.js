@@ -50,7 +50,7 @@
             }
         }
         else {
-	/*TES1: check if the input is empty*/
+	/*TES1: check if the input is empty and return false if not*/
             if($(input).val().trim() == ''){
                 return false;
             }
